@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  alpine-linux:
+    image: vikashkothary/alpine:3.9
+    build:
+      context: .
+      dockerfile: Dockerfile
+    

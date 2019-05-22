@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  alpine:
+    image: vikashkothary/alpine:3.9
+    container_name: alpine3.9
+    env_file: .env
+    restart: always
+    stdin_open: true
+    tty: true
